@@ -1,0 +1,17 @@
+[project]
+name = "swapna-hello"
+version = "0.1.1"
+description = "A simple Python package that prints a greeting"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name="Swapna", email="penumuchuswapna10@gmail.com" }
+]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+swapna-hello = "swapna_hello:main"
